@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Natural Blush Cosmetics | Luxury Beauty</title>
+<meta name="description" content="Natural Blush Cosmetics — Beauty, Fragrance and Skincare">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--pink:#f8e4eb;--deep:#7d2948;--gold:#c9a34a;--cream:#fffaf4;--text:#34242b}
+html{scroll-behavior:smooth}
+body{font-family:Georgia,'Times New Roman',serif;background:var(--cream);color:var(--text);line-height:1.6}
+header{text-align:center;padding:25px 12px;background:linear-gradient(135deg,#fff8f1,#f5dce6);border-bottom:2px solid var(--gold)}
+.logo{font-size:clamp(32px,7vw,49px);font-weight:bold;letter-spacing:2px;color:var(--deep)}
+.logo span{color:var(--gold)}
+.tagline{font-size:12px;letter-spacing:3px;color:#76515e}
+nav{display:flex;justify-content:center;flex-wrap:wrap;gap:20px;padding:15px 8px;background:#fffaf4;border-bottom:1px solid #e8d5ac}
+nav a{color:var(--deep);text-decoration:none;font-size:14px;font-weight:bold}
+.hero{text-align:center;padding:70px 18px;background:radial-gradient(circle at top right,#fff1d2,transparent 40%),linear-gradient(135deg,#f8e4eb,#fffaf4,#f3dfbd)}
+.hero-label{color:#8f6b25;text-transform:uppercase;letter-spacing:4px;font-size:12px;margin-bottom:14px}
+.hero h1{font-size:clamp(36px,8vw,60px);line-height:1.15;color:var(--deep);margin-bottom:18px}
+.hero h1 span{color:#8f6b25}
+.hero p{max-width:580px;margin:0 auto 25px;color:#674b55}
+.button{display:inline-block;padding:13px 25px;background:linear-gradient(135deg,#d8b65e,#b78b30);color:white;text-decoration:none;border-radius:30px;font-family:Arial,sans-serif;font-size:14px;font-weight:bold;box-shadow:0 5px 15px #b78b3033}
+.section{padding:55px 16px;max-width:1100px;margin:auto}
+.section-title{text-align:center;font-size:clamp(28px,6vw,39px);color:var(--deep)}
+.gold-line{width:65px;height:3px;background:var(--gold);margin:14px auto 20px}
+.section-subtitle{text-align:center;color:#846a72;margin-bottom:32px;font-size:14px}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.product{background:white;border:1px solid #ead9b4;border-radius:14px;overflow:hidden;text-align:center;padding-bottom:24px;box-shadow:0 7px 24px #6d33400b;transition:.3s}
+.product:hover{transform:translateY(-4px)}
+.product-art{height:175px;display:flex;align-items:center;justify-content:center;flex-direction:column;background:linear-gradient(145deg,#f9e5ec,#fff6e5);color:var(--deep);border-bottom:1px solid #e8d5ac}
+.symbol{font-size:54px;line-height:1.3}
+.product-art small{color:#8f6b25;letter-spacing:2px;font-size:10px}
+.product h3{color:var(--deep);font-size:21px;margin:18px 10px 8px}
+.product p{font-family:Arial,sans-serif;font-size:13px;color:#79656c;padding:0 17px;min-height:42px}
+.price{color:#8f6b25;font-weight:bold;margin:13px 0;font-family:Arial,sans-serif;font-size:16px}
+.order-button{display:inline-block;background:var(--deep);color:white;text-decoration:none;border-radius:25px;padding:10px 18px;font-family:Arial,sans-serif;font-size:12px;margin-top:4px}
+.order-button:hover{background:#8f6b25}
+.about{background:#f8e8ed;border-top:1px solid #e8d5ac;border-bottom:1px solid #e8d5ac}
+.about-content{max-width:750px;margin:auto;text-align:center}
+.about-content p{color:#674b55;margin-bottom:15px}
+.contact-box{text-align:center;background:linear-gradient(135deg,#fff6e5,#f5dce6);border:1px solid var(--gold);border-radius:18px;padding:35px 18px}
+.contact-box h2{color:var(--deep);font-size:30px;margin-bottom:12px}
+.contact-box p{margin-bottom:22px;color:#674b55}
+footer{background:#482333;color:#fff4e5;text-align:center;padding:25px 15px;font-family:Arial,sans-serif;font-size:12px}
+footer strong{color:#e6c16b}
+.whatsapp-float{position:fixed;bottom:18px;right:16px;background:#218c53;color:white;text-decoration:none;padding:13px 17px;border-radius:30px;font-family:Arial,sans-serif;font-size:13px;font-weight:bold;box-shadow:0 4px 14px #0003;z-index:100}
+@media(max-width:480px){nav{gap:14px}.hero{padding:52px 16px}.section{padding:42px 14px}}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Natural <span>Blush</span></div>
+<div class="tagline">COSMETICS · BEAUTY · ELEGANCE</div>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#products">Our Products</a>
+<a href="#about">About Us</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+<div class="hero-label">Your Beauty, Our Passion</div>
+<h1>Discover Your<br><span>Natural Glow</span></h1>
+<div class="gold-line"></div>
+<p>Welcome to Natural Blush Cosmetics. Explore beauty, fragrance and skincare with a touch of luxury.</p>
+<a class="button" href="#products">EXPLORE OUR COLLECTION</a>
+</section>
+
+<section class="section" id="products">
+<h2 class="section-title">Our Beauty Collection</h2>
+<div class="gold-line"></div>
+<p class="section-subtitle">A little luxury, a beautiful feeling.</p>
+
+<div class="products">
+
+<div class="product">
+<div class="product-art"><div class="symbol">♕</div><small>NATURAL BLUSH</small></div>
+<h3>Luxury Perfume</h3>
+<p>An elegant fragrance for your special moments.</p>
+<div class="price">Price: Contact Us</div>
+<a class="order-button" href="https://wa.me/923224343769?text=Hello%20Natural%20Blush%2C%20I%20want%20to%20know%20the%20price%20of%20Luxury%20Perfume." target="_blank">ORDER ON WHATSAPP</a>
+</div>
+
+<div class="product">
+<div class="product-art"><div class="symbol">✿</div><small>NATURAL BLUSH</small></div>
+<h3>Face Wash</h3>
+<p>A refreshing addition to your daily skincare routine.</p>
+<div class="price">Price: Contact Us</div>
+<a class="order-button" href="https://wa.me/923224343769?text=Hello%20Natural%20Blush%2C%20I%20want%20to%20know%20the%20price%20of%20Face%20Wash." target="_blank">ORDER ON WHATSAPP</a>
+</div>
+
+<div class="product">
+<div class="product-art"><div class="symbol">❀</div><small>NATURAL BLUSH</small></div>
+<h3>Night Cream</h3>
+<p>A luxurious cream for your nighttime skincare routine.</p>
+<div class="price">Price: Contact Us</div>
+<a class="order-button" href="https://wa.me/923224343769?text=Hello%20Natural%20Blush%2C%20I%20want%20to%20know%20the%20price%20of%20Night%20Cream." target="_blank">ORDER ON WHATSAPP</a>
+</div>
+
+<div class="product">
+<div class="product-art"><div class="symbol">❧</div><small>NATURAL BLUSH</small></div>
+<h3>Hair Oil</h3>
+<p>Make hair care a special part of your beauty routine.</p>
+<div class="price">Price: Contact Us</div>
+<a class="order-button" href="https://wa.me/923224343769?text=Hello%20Natural%20Blush%2C%20I%20want%20to%20know%20the%20price%20of%20Hair%20Oil." target="_blank">ORDER ON WHATSAPP</a>
+</div>
+
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="section">
+<div class="about-content">
+<h2 class="section-title">About Natural Blush</h2>
+<div class="gold-line"></div>
+<p>Natural Blush Cosmetics is dedicated to beauty, fragrance and personal care. We believe every customer deserves a beautiful shopping experience.</p>
+<p>Explore our collection and contact us directly for product details, prices and orders.</p>
+<a class="button" href="https://wa.me/923224343769?text=Hello%20Natural%20Blush%2C%20please%20share%20your%20product%20catalog." target="_blank">REQUEST OUR CATALOG</a>
+</div>
+</div>
+</section>
+
+<section class="section" id="contact">
+<div class="contact-box">
+<h2>Let's Connect</h2>
+<p>Want to order a product or know more about our collection? Message us on WhatsApp.</p>
+<a class="button" href="https://wa.me/923224343769?text=Hello%20Natural%20Blush%20Cosmetics%2C%20I%20would%20like%20more%20information." target="_blank">CHAT WITH US</a>
+</div>
+</section>
+
+<footer>
+<p><strong>NATURAL BLUSH COSMETICS</strong></p>
+<p>Beauty · Fragrance · Skincare</p>
+<p>WhatsApp: 03224343769</p>
+<p>© 2026 Natural Blush Cosmetics. All rights reserved.</p>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/923224343769?text=Hello%20Natural%20Blush%20Cosmetics" target="_blank">WhatsApp Order</a>
+
+</body>
+  </html>
